@@ -333,16 +333,19 @@ address {
 }
 
 .brand small {
-  color: var(--color-primary-700);
-  font-size: 0.65rem;
+  color: var(--color-red);
+  font-size: 0.7rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.055em;
   line-height: 1.45;
+  text-shadow: 0 2px 12px rgb(223 51 71 / 12%);
   text-transform: uppercase;
 }
 
 .brand strong {
+  color: var(--color-primary-900);
   font-size: 1.04rem;
+  font-weight: 800;
   line-height: 1.35;
 }
 
@@ -479,6 +482,11 @@ address {
   color: var(--color-ink-soft);
   font-size: clamp(1rem, 1.45vw, 1.2rem);
   line-height: 1.8;
+}
+
+.hospital-name-inline {
+  color: var(--color-primary-800);
+  font-weight: 800;
 }
 
 .hero-actions,
@@ -1155,6 +1163,12 @@ address {
   color: var(--color-muted);
 }
 
+.hospital-name-title {
+  color: var(--color-primary-800);
+  font-weight: 800;
+  text-wrap: balance;
+}
+
 .faq-list details {
   border-top: 1px solid var(--color-line);
 }
@@ -1305,6 +1319,13 @@ details[open] .faq-toggle i:last-child {
 .footer-brand span {
   color: #8fb0d3;
   font-size: 0.7rem;
+}
+
+.footer-brand .footer-hospital-name {
+  color: #8fdef6;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
 }
 
 .footer-about > p {
@@ -1701,14 +1722,19 @@ details[open] .faq-toggle i:last-child {
     width: 46px;
   }
 
-  .brand small,
   .header-community,
   .header-hotline {
     display: none;
   }
 
+  .brand small {
+    display: block;
+    font-size: 0.56rem;
+    letter-spacing: 0.035em;
+  }
+
   .brand strong {
-    font-size: 0.96rem;
+    font-size: 0.92rem;
   }
 
   .hero {

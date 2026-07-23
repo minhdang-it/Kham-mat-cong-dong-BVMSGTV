@@ -21,12 +21,6 @@
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
-    <meta
-      name="googlebot"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
-    <meta name="geo.region" content="VN-51" />
-    <meta name="geo.placename" content="Trà Vinh" />
     <link
       rel="canonical"
       href="https://danglee97.github.io/kham-mat-cong-dong/"
@@ -57,17 +51,11 @@
       property="og:image"
       content="https://danglee97.github.io/kham-mat-cong-dong/assets/huong-dan-dat-cau-hoi-an-toan.webp"
     />
-    <meta property="og:image:width" content="1254" />
-    <meta property="og:image:height" content="1254" />
-    <meta
-      property="og:image:alt"
-      content="Hướng dẫn đặt câu hỏi an toàn về sức khỏe mắt"
-    />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Khám mắt Cộng đồng tại Trà Vinh" />
     <meta
       name="twitter:description"
-      content="Hỏi đúng về mắt, chăm sóc kịp thời. Tham gia cộng đồng chia sẻ kiến thức sức khỏe mắt an toàn tại Trà Vinh."
+      content="Hỏi đúng về mắt, chăm sóc kịp thời."
     />
     <meta
       name="twitter:image"
@@ -98,7 +86,7 @@
     <link rel="stylesheet" href="./assets/fonts.css" />
     <link rel="stylesheet" href="./assets/styles.css" />
 
-    <!-- Structured data -->
+    <!-- JSON-LD -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -242,7 +230,8 @@
               height="62"
               alt="Logo Bệnh viện Mắt Sài Gòn Trà Vinh"
             /><span
-              ><small>Bệnh viện Mắt Sài Gòn Trà Vinh</small
+              ><small class="brand-hospital-name"
+                >Bệnh viện Mắt Sài Gòn Trà Vinh</small
               ><strong>Khám mắt Cộng đồng</strong></span
             ></a
           >
@@ -277,7 +266,10 @@
           <h1>Hỏi đúng về mắt.<span>Chăm sóc kịp thời.</span></h1>
           <p class="hero-lead">
             Nơi người dân chia sẻ kiến thức, đặt câu hỏi an toàn và kết nối với
-            thông tin chuyên khoa từ Bệnh viện Mắt Sài Gòn Trà Vinh.
+            thông tin chuyên khoa từ<!-- -->
+            <strong class="hospital-name-inline"
+              >Bệnh viện Mắt Sài Gòn Trà Vinh</strong
+            >.
           </p>
           <div class="hero-actions">
             <a
@@ -706,7 +698,7 @@
           />
           <div>
             <p class="eyebrow">Đơn vị đồng hành</p>
-            <h2>Bệnh viện Mắt Sài Gòn Trà Vinh</h2>
+            <h2 class="hospital-name-title">Bệnh viện Mắt Sài Gòn Trà Vinh</h2>
             <p>
               Bệnh viện chuyên khoa mắt phục vụ người dân Trà Vinh và khu vực
               lân cận, với định hướng chăm sóc toàn diện, thiết bị chuyên khoa
@@ -843,7 +835,9 @@
               />
               <div>
                 <strong>Khám mắt Cộng đồng</strong
-                ><span>Bệnh viện Mắt Sài Gòn Trà Vinh</span>
+                ><span class="footer-hospital-name"
+                  >Bệnh viện Mắt Sài Gòn Trà Vinh</span
+                >
               </div>
             </div>
             <p>
