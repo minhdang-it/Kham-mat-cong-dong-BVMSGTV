@@ -1,0 +1,21 @@
+{
+  "name": "Khám mắt Cộng đồng | Bệnh viện Mắt Sài Gòn Trà Vinh",
+  "short_name": "Khám mắt",
+  "description": "Cộng đồng chia sẻ kiến thức chăm sóc mắt an toàn tại Trà Vinh.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#102d75",
+  "icons": [
+    {
+      "src": "./favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
