@@ -1,23 +1,21 @@
 # Khám mắt Cộng đồng — GitHub Pages
 
-Đây là bản tĩnh sẵn sàng đưa lên GitHub Pages. Website giữ nguyên giao diện responsive, SEO, font Inter tiếng Việt, footer và các nút Gọi/Zalo/Facebook/Fanpage/Lên đầu trang.
+Đây là bản HTML/CSS/JavaScript thuần, có thể đưa trực tiếp lên GitHub Pages.
 
-## Triển khai
+## Cách triển khai
 
-1. Tạo repository GitHub mới, ví dụ `kham-mat-cong-dong`.
-2. Tải **toàn bộ nội dung bên trong thư mục này** lên nhánh `main`.
-3. Vào **Settings → Pages**.
-4. Tại **Build and deployment → Source**, chọn **GitHub Actions**.
-5. Mở tab **Actions** và chờ quy trình deploy hoàn tất.
+1. Tạo repository GitHub tên `kham-mat-cong-dong`.
+2. Tải toàn bộ nội dung trong thư mục này lên nhánh `main`.
+3. Mở **Settings → Pages**.
+4. Tại **Build and deployment**, chọn **GitHub Actions**.
+5. Chờ workflow **Deploy GitHub Pages** hoàn tất.
 
-URL mặc định trong metadata: https://danglee97.github.io/kham-mat-cong-dong/
+Website dự kiến: https://danglee97.github.io/kham-mat-cong-dong/
 
-Nếu dùng tên tài khoản hoặc repository khác, hãy tìm và thay chuỗi `https://danglee97.github.io/kham-mat-cong-dong` trong `index.html`, `404.html`, `robots.txt` và `sitemap.xml`.
+## Cấu trúc
 
-## Chạy thử trên máy
-
-```bash
-python3 -m http.server 8080
-```
-
-Sau đó mở `http://localhost:8080`.
+- `index.html`: nội dung và cấu trúc SEO.
+- `assets/styles.css`: hệ biến, reset, OOCSS, components, layout và responsive.
+- `site.js`: toàn bộ tương tác trong `DOMContentLoaded`.
+- `assets/`, `images/`: logo, ảnh và font Be Vietnam Pro.
+- `robots.txt`, `sitemap.xml`: hỗ trợ công cụ tìm kiếm.
