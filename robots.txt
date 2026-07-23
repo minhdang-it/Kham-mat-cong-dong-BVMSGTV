@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://danglee97.github.io/kham-mat-cong-dong/sitemap.xml
+Sitemap: https://khammatcongdong.matsaigontravinh.vn/sitemap.xml
