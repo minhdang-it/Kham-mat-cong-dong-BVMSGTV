@@ -1,23 +1,23 @@
-# Khám mắt Cộng đồng | Bệnh viện Mắt Sài Gòn Trà Vinh
+# Khám mắt Cộng đồng — GitHub Pages
 
-Source website tĩnh tối ưu cho GitHub Pages, có giao diện responsive, SEO cơ bản, dữ liệu có cấu trúc, favicon theo logo bệnh viện và font hỗ trợ đầy đủ tiếng Việt.
+Đây là bản tĩnh sẵn sàng đưa lên GitHub Pages. Website giữ nguyên giao diện responsive, SEO, font Inter tiếng Việt, footer và các nút Gọi/Zalo/Facebook/Fanpage/Lên đầu trang.
 
-## Đưa website lên GitHub Pages
+## Triển khai
 
-1. Tạo repository mới trên GitHub, ví dụ `kham-mat-cong-dong`.
-2. Tải toàn bộ nội dung trong thư mục này lên nhánh `main` (giữ nguyên thư mục `.github`).
+1. Tạo repository GitHub mới, ví dụ `kham-mat-cong-dong`.
+2. Tải **toàn bộ nội dung bên trong thư mục này** lên nhánh `main`.
 3. Vào **Settings → Pages**.
 4. Tại **Build and deployment → Source**, chọn **GitHub Actions**.
-5. Mở tab **Actions** và chờ quy trình **Deploy static website to GitHub Pages** hoàn tất.
+5. Mở tab **Actions** và chờ quy trình deploy hoàn tất.
 
-Website dự kiến: https://danglee97.github.io/kham-mat-cong-dong/
+URL mặc định trong metadata: https://danglee97.github.io/kham-mat-cong-dong/
+
+Nếu dùng tên tài khoản hoặc repository khác, hãy tìm và thay chuỗi `https://danglee97.github.io/kham-mat-cong-dong` trong `index.html`, `404.html`, `robots.txt` và `sitemap.xml`.
 
 ## Chạy thử trên máy
-
-Bạn có thể mở bằng VS Code Live Server hoặc chạy:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Sau đó truy cập `http://localhost:8080`.
+Sau đó mở `http://localhost:8080`.
