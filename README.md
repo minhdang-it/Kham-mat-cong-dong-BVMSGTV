@@ -1,3 +1,9 @@
+## Cập nhật khoảng cách Hoạt động báo chí
+
+- Loại bỏ khoảng trắng lớn giữa danh sách bài báo và phần Album ảnh.
+- Giữ khoảng chuyển tiếp cân đối khoảng 38–54 px trên máy tính và 34 px trên điện thoại.
+- Không thay đổi kích thước, nội dung hoặc cơ chế chuyển trang của thẻ bài báo.
+
 # Khám mắt Cộng đồng | Bệnh viện Mắt Sài Gòn Trà Vinh
 
 Mã nguồn website cộng đồng sức khỏe mắt của Bệnh viện Mắt Sài Gòn Trà Vinh, tối ưu để triển khai trực tiếp bằng GitHub Pages.

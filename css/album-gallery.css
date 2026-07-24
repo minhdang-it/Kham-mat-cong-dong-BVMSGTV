@@ -746,3 +746,21 @@
     transform: none;
   }
 }
+
+/* =========================================================
+   PRESS → GALLERY SPACING
+   Thu gọn khoảng trắng giữa khối Hoạt động báo chí và Album ảnh.
+   ========================================================= */
+.community-activity .press-showcase {
+  padding-bottom: clamp(38px, 4vw, 54px);
+}
+
+.community-activity .gallery-showcase {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .community-activity .press-showcase {
+    padding-bottom: 34px;
+  }
+}
