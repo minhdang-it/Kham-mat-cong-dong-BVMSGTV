@@ -554,8 +554,23 @@
 .album-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 10px;
   margin-top: clamp(16px, 2.2vw, 22px);
+}
+
+.album-article-button {
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135deg, #075795, #0b86c7);
+  box-shadow: 0 12px 28px rgba(5, 89, 148, 0.28);
+}
+
+.album-article-button:hover,
+.album-article-button:focus-visible {
+  color: #fff !important;
+  background: linear-gradient(135deg, #064979, #0875ae);
+  box-shadow: 0 16px 34px rgba(5, 75, 127, 0.36);
 }
 
 .album-state {

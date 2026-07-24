@@ -263,9 +263,6 @@ document.addEventListener("DOMContentLoaded", () => {
       return patterns.map((pattern) => folderUrl.match(pattern)?.[1]).find(Boolean) || "";
     };
 
-    const driveFolderOpenUrl = (folderId) =>
-      `https://drive.google.com/drive/folders/${encodeURIComponent(folderId)}`;
-
     const formatDate = (value) => {
       const rawValue = String(value ?? "").trim();
       if (!rawValue) return "";
@@ -867,22 +864,21 @@ document.addEventListener("DOMContentLoaded", () => {
           ));
         }
 
-        const actions = createElement("div", "album-actions");
-        const driveLink = createElement("a", "button button-white", "Mở thư mục ảnh ↗");
-        driveLink.href = driveFolderOpenUrl(folder.folderId);
-        driveLink.target = "_blank";
-        driveLink.rel = "noopener noreferrer";
-        actions.append(driveLink);
+        card.append(header, copy, sliderContainer);
 
         if (folder.articleUrl) {
-          const articleLink = createElement("a", "button button-outline", "Xem bài viết liên quan ↗");
+          const actions = createElement("div", "album-actions");
+          const articleLink = createElement(
+            "a",
+            "button album-article-button",
+            "Xem bài viết liên quan ↗"
+          );
           articleLink.href = folder.articleUrl;
           articleLink.target = "_blank";
           articleLink.rel = "noopener noreferrer";
           actions.append(articleLink);
+          card.append(actions);
         }
-
-        card.append(header, copy, sliderContainer, actions);
         albumViewer.append(card);
 
         if (state === "loaded") {
