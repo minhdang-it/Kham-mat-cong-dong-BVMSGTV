@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://khammatcongdong.matsaigontravinh.vn/sitemap.xml
+Host: https://khammatcongdong.matsaigontravinh.vn
