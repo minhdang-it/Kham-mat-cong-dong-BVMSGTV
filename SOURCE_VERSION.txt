@@ -1,11 +1,1 @@
-KHÁM MẮT CỘNG ĐỒNG — BẢN SOURCE MỚI
-
-Ngày đóng gói: 23/07/2026
-Git commit: 163f764320e0e206d4f98120a1e6189775b07636
-
-Dấu hiệu nhận biết đúng bản mới:
-- Có nền chuyển động: ambient-background, ambient-orb và ambient-light-line.
-- Có hiệu ứng header-actions-enter và header-hotline-pulse.
-- Favicon là logo tròn bệnh viện, phần bên ngoài vòng tròn trong suốt.
-- Font Be Vietnam Pro hỗ trợ tiếng Việt.
-- Có widget Gọi, Zalo, Nhóm Facebook, Fanpage và Lên đầu trang.
+2026-07-24-compact-album-browser-v2
